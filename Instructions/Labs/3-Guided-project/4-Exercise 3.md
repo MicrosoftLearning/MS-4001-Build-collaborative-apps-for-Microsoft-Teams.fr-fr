@@ -85,16 +85,12 @@ Exécutez votre application en mode débogage pour tester les fonctionnalités.
 
 1. Dans Visual Studio Code, sélectionnez l’icône **Microsoft Teams** pour ouvrir le panneau **TEAMS TOOKIT**.
 
-2. Si vous n’êtes pas connecté à Azure dans Teams Toolkit : Dans la section **COMPTES**, sélectionnez **Se connecter à Azure**. Dans la boîte de dialogue qui s’ouvre, sélectionnez le bouton **Se connecter** et entrez vos informations d’identification Microsoft 365.
-
-   Teams Toolkit nécessite un compte professionnel ou scolaire Microsoft 365 avec des privilèges d’Administrateur général.
-
-3. Commencez à exécuter votre application avec le débogueur attaché en utilisant une de ces méthodes :
+2. Commencez à exécuter votre application avec le débogueur attaché en utilisant une de ces méthodes :
 
    - Sélectionnez la touche F5.
-   - Dans Visual Studio Code, sélectionnez **Exécuter** > **Démarrer le débogage**.
+   - Dans Visual Studio Code, accédez au menu **Exécuter et déboguer**.  Sélectionnez **Déboguer dans Teams** avec l’option de navigateur souhaitée, puis sélectionnez le bouton **Démarrer le débogage**.
    - Dans la section **ENVIRONNEMENT** de Teams Toolkit, ouvrez le dossier *local*, puis sélectionnez le navigateur de votre choix.
 
-4. Visual Studio Code effectue des vérifications dont les actions sont visibles sous l’onglet **Console**, puis une nouvelle fenêtre de navigateur s’ouvre. Dans la boîte de dialogue **UserInfoApp**, sélectionnez le bouton **Ajouter** pour installer l’application dans Teams et avoir un aperçu.
+3. Visual Studio Code effectue des vérifications dont les actions sont visibles sous l’onglet **Console**, puis une nouvelle fenêtre de navigateur s’ouvre. Dans la boîte de dialogue **UserInfoApp**, sélectionnez le bouton **Ajouter** pour installer l’application dans Teams et avoir un aperçu.
 
 L’application est désormais visible dans la barre latérale. L’application est préconfigurée avec deux onglets : **Onglet Personnel** et **À propos de**. Vérifiez que le code des paramètres régionaux s’affiche sous l’onglet.
