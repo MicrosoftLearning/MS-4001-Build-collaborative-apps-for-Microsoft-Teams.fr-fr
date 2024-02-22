@@ -12,11 +12,11 @@ Dans cet exercice, vous allez d’abord créer et approvisionner une application
 
 1. Dans les options, sélectionnez **Onglet**.
 
-    :::image type="content" source="../../media/create-teams-tab-app.png" alt-text="Capture d’écran de l’option du kit de ressources Teams pour l’application d’onglet.":::
+    ![Capture d’écran de l’option du kit de ressources Teams pour l’application d’onglet.](../../media/create-teams-tab-app.png)
 
 1. Ensuite, sélectionnez **React avec l’interface utilisateur Fluent**.
 
-    :::image type="content" source="../../media/create-teams-tab-react.png" alt-text="Capture d’écran du modèle d’application du kit de ressources Teams avec l’onglet sélectionné.":::
+    ![Capture d’écran du modèle d’application du kit de ressources Teams avec l’onglet sélectionné.](../../media/create-teams-tab-react.png)
 
 1. Dans les options du langage de programmation, sélectionnez **JavaScript**.
 
@@ -26,7 +26,7 @@ Dans cet exercice, vous allez d’abord créer et approvisionner une application
 
 1. La génération de modèles automatique du projet démarre. Lorsque le projet est généré automatiquement, une nouvelle fenêtre Visual Studio Code s’ouvre avec le nouveau projet chargé.
 
-    :::image type="content" source="../../media/new-tab-project.png" alt-text="Capture d’écran du nouveau projet d’onglet du kit de ressources Teams après sa génération automatique.":::
+    ![Capture d’écran du nouveau projet d’onglet du kit de ressources Teams après sa génération automatique.](../../media/new-tab-project.png)
 
 1. Dans Visual Studio Code, sélectionnez **Exécuter > Démarrer le débogage** ou sélectionnez la touche **F5** pour démarrer la session de débogage.
 
@@ -38,15 +38,17 @@ Dans cet exercice, vous allez d’abord créer et approvisionner une application
 
 ## Tâche 2 : Se connecter à Azure dans le kit de ressources Teams
 
+Connectez-vous à Azure en utilisant le compte de votre **abonnement Azure**.
+
 1. Dans la barre d’activité, sélectionnez l’icône **Microsoft Teams**.
 
 1. Dans le panneau du kit de ressources Teams, sous **Comptes**, sélectionnez **Se connecter à Azure**.
 
-    :::image type="content" source="../../media/sign-into-azure.png" alt-text="Capture d’écran du panneau du kit de ressources Teams avec le bouton permettant de se connecter à Azure.":::
+    ![Capture d’écran du panneau du kit de ressources Teams avec le bouton permettant de se connecter à Azure.](../../media/sign-into-azure.png)
 
 1. Dans la boîte de dialogue qui s’affiche, sélectionnez **Se connecter**.
 
-    :::image type="content" source="../../media/sign-into-azure-alert.png" alt-text="Capture d’écran d’une boîte de dialogue permettant de confirmer la connexion à Azure.":::
+    ![Capture d’écran d’une boîte de dialogue permettant de confirmer la connexion à Azure.](../../media/sign-into-azure-alert.png)
 
 ## Tâche 3 : Approvisionner les ressources
 
@@ -54,11 +56,11 @@ Vous pouvez maintenant approvisionner les ressources dont votre application d’
 
 1. Dans le panneau du kit de ressources Teams, sous **Cycle de vie**, sélectionnez **Approvisionner**.
 
-    :::image type="content" source="../../media/provision-start.png" alt-text="Capture d’écran mettant en évidence l’option d’approvisionnement dans le cloud dans la section déploiement.":::
+    ![Capture d’écran mettant en évidence l’option d’approvisionnement dans le cloud dans la section déploiement.](../../media/provision-start.png)
 
 1. Ensuite, vous devez sélectionner un groupe de ressources dans lequel vous pouvez approvisionner les ressources ou créer un groupe de ressources en sélectionnant l’option **Nouveau groupe de ressources** dans le menu **Sélectionner un groupe de ressources**.
 
-    :::image type="content" source="../../media/resource-group.png" alt-text="Capture d’écran montrant comment créer un groupe de ressources.":::
+    ![Capture d’écran montrant comment créer un groupe de ressources.](../../media/resource-group.png)
 
 1. L’outil suggère automatiquement le nom du groupe de ressources, par exemple rg-hello-tab0989fd-dev. Sélectionnez **Enter** (Entrer).
 
@@ -66,7 +68,7 @@ Vous pouvez maintenant approvisionner les ressources dont votre application d’
 
 1. Dans une boîte de dialogue permettant de confirmer votre sélection, sélectionnez **Approvisionner**.
 
-    :::image type="content" source="../../media/provision-confirm.png" alt-text="Capture d’écran de la boîte de dialogue permettant de confirmer l’approvisionnement.":::
+    ![Capture d’écran de la boîte de dialogue permettant de confirmer l’approvisionnement.](../../media/provision-confirm.png)
 
 1. L’approvisionnement commence pour toutes les ressources dont vous avez besoin pour héberger l’application d’onglet Teams dans Azure. L’approvisionnement peut prendre un certain temps.
 
