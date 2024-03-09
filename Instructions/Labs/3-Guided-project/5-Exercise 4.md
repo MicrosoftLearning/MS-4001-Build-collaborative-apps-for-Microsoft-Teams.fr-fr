@@ -8,7 +8,7 @@ lab:
 
 ## Scénario
 
-Supposez que l’équipe de support informatique dont vous êtes responsable reçoit un volume élevé de requêtes courantes et répétitives de la part des employés de l’organisation. Ces requêtes concernent souvent des problèmes simples tels que la réinitialisation de mot de passe, les instructions d’installation de logiciels ou la résolution des erreurs courantes.
+Supposons que l’équipe de support informatique que vous assistez reçoit un volume élevé de requêtes courantes et répétitives des employés de l’organisation. Ces requêtes impliquent souvent des problèmes simples tels que les réinitialisations de mot de passe, les instructions d’installation de logiciels et la résolution d’erreurs courantes.
 
 Pour simplifier le processus et réduire la charge de travail de votre équipe, vous décidez de créer un bot capable de gérer ces requêtes courantes dans Microsoft Teams.
 
@@ -18,9 +18,9 @@ Outre la commande « resetPassword », vous envisagez d’ajouter d’autres c
 
 ## Tâches de l’exercice
 
-Pour terminer l’exercice, vous devez effectuer les tâches suivantes :
+Pour réaliser l’exercice, vous devez effectuer les tâches suivantes :
 
-1. Créer le bot à l’aide de Teams Toolkit
+1. Créer le bot à l’aide de Teams Toolkit
 2. Configurer le manifeste
 3. Créer une carte adaptative
 4. Gérer la commande
@@ -146,6 +146,20 @@ Ensuite, gérez la commande dans le code source du bot à l’aide de la classe 
           }
         }
    ```
+
+## Tâche 5 : Inscrire la nouvelle commande
+
+Chaque nouvelle commande doit être configurée dans le `ConversationBot`, qui alimente le flux conversationnel du modèle de bot de commandes.
+
+1. Accédez au fichier `src/internal/initialize.ts`.
+2. Ajoutez l’instruction d’importation suivante sur la ligne 2 :
+
+    `import { ResetPasswordCommandHandler } from "../resetPasswordCommandHandler";`
+3. Sur la ligne 20, mettez à jour le tableau `commands` de la propriété `command` en incluant une instruction pour initialiser le nouveau gestionnaire : `new ResetPasswordCommandHandler().  The updated `L’objet « command » mis à jour doit se présenter comme ceci :
+
+   ```json
+   command: {    enabled: true,    commands: [new HelloWorldCommandHandler(), new ResetPasswordCommandHandler()],  },
+    ```
 
 ## Vérifier votre travail
 
