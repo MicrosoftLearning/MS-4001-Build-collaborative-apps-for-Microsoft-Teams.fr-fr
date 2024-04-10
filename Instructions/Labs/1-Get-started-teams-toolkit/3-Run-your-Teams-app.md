@@ -10,7 +10,7 @@ Dans cet exercice, vous exécuterez l’application Teams localement.
 
 2. Dans la boîte de dialogue contextuelle, sélectionnez **Se connecter**. Vous êtes redirigé vers un navigateur pour vous connecter avec les **informations d’identification de votre compte Microsoft 365**.  Entrez vos informations d'identification d'administrateur.
 
-3. Lorsque vous êtes connecté avec succès, fermez le navigateur et revenez à Visual Studio Code. Un message *activé pour le chargement indépendant* s’affiche sous votre compte sur Teams Toolkit pour indiquer que votre locataire est configuré correctement.
+3. Lorsque vous êtes connecté avec succès, fermez le navigateur et revenez à Visual Studio Code. Un message **Chargement de l’application personnalisé activé** s’affiche sous votre compte sur Teams Toolkit pour indiquer que votre locataire est configuré correctement.
 
     ![Capture d’écran de la note de chargement indépendant activée dans Teams Toolkit.](../../media/sideload-enabled.png)
 
@@ -24,7 +24,7 @@ Exécutons le projet et voyons à quoi il ressemblera dans Microsoft Teams.
 4. Ensuite, Teams Toolkit ouvre Microsoft Teams dans le navigateur que vous avez sélectionné.
 5. Connectez-vous avec le même compte **Microsoft 365** que celui que vous avez utilisé pour vous connecter à Teams Toolkit.
 6. Teams affiche ensuite une option permettant d’installer votre application. Sélectionnez **Ajouter** pour afficher un aperçu de l’application.
-7. Lorsque vous affichez un aperçu, le nom de votre application est suffixe avec le *débogage local*. Le suffixe indique que l’application fonctionne localement et n’a pas été déployée.
+7. Lorsque vous affichez un aperçu, le nom de votre application est suffixe avec le *local*. Le suffixe indique que l’application fonctionne localement et n’a pas été déployée.
 
     ![Capture d’écran de la boîte de dialogue pour l’installation d’une application Teams.](../../media/add-teams-app.png)
 
