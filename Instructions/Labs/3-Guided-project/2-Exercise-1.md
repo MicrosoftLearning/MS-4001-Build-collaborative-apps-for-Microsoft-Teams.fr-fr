@@ -52,14 +52,14 @@ La structure de l’application d’extension de message a été créée à l’
 | `.vscode/` | Fichiers VSCode pour le débogage local. |
 | `appPackage/` | Fichiers de package d’application, notamment le manifeste de l’application Teams. |
 | `infra/` | Modèles d’approvisionnement des ressources Azure. |
-| `index.js` | Point d’entrée et gestionnaire `restify` de l’application. |
-| `teamsBot.js` | Gestionnaires d’activités Teams.  |
+| `index.ts` | Point d’entrée et gestionnaire `restify` de l’application. |
+| `teamsBot.ts` | Gestionnaires d’activités Teams.  |
 
 ## Tâche 2 : Ajouter la fonctionnalité de recherche
 
 La solution n’a pas le code pour stocker la valeur de la chaîne de requête de recherche à utiliser dans la requête Graph.  Mettez à jour le code pour stocker cette valeur dans une variable nommée `searchQuery`.
 
-1. Accédez au fichier **TeamsBot.ts**.
+1. Accédez au fichier **teamsBot.ts**.
 2. Dans la méthode `handleTeamsMessagingExtensionQuery`, recherchez le commentaire **// Get the search context from the query parameters.** à la ligne 81 et ajoutez la ligne de code suivante sur la ligne d’après :
 
     ```JavaScript
@@ -74,7 +74,7 @@ La solution n’a pas le chemin de l’API pour la requête Graph qui utilise la
 
       `// Use the Graph API to search for users by their display name.`
 
-2. Dans la ligne de code suivante, remplacez `path` par le chemin d’API suivant :
+2. Dans la ligne de code suivante, remplacez `PATH` par le chemin d’API suivant :
 
      ```TypeScript
      /users?$search="displayName:${searchQuery}"&$count=true
@@ -104,8 +104,8 @@ Ensuite, utilisez Teams Toolkit pour approvisionner les ressources requises pour
 
 1. Connectez-vous au portail Azure sur [portal.azure.com](portal.azure.com) avec votre compte administrateur **Microsoft 365**.
 2. Dans le menu de navigation de gauche, accédez à **Microsoft Entra ID**.
-3. Accédez à **Gérer > Inscriptions d’applications > Toutes les inscriptions**.
-4. Sélectionnez l’inscription de l’application **ContactDetails** qui a été créée lors de l’approvisionnement.
+3. Accédez à **Gérer > Inscriptions d’applications > Toutes les applications**.
+4. Sélectionnez l’inscription de l’application **Contact Details** qui a été créée lors de l’approvisionnement.
 5. Accédez à **Gérer > API autorisées**.
 6. Sélectionnez **+ Ajouter une autorisation**.
 7. Sélectionnez **Microsoft Graph**.
