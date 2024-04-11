@@ -6,7 +6,7 @@ Dans cet exercice, vous apprenez à publier votre application dans le magasin de
 
 1. Dans Visual Studio Code, sur la barre d’activité, sélectionnez l’**icône Microsoft Teams** pour ouvrir le **panneau Teams Toolkit**.
 
-    a. ![Capture d’écran du panneau Teams Toolkit ouvert et de l’option Publier sur Teams mise en évidence.](../../media/publish-to-teams.png)
+    ![Capture d’écran du panneau Teams Toolkit ouvert et de l’option Publier sur Teams mise en évidence.](../../media/publish-to-teams.png)
 
 1. Sur le panneau Teams Toolkit, sous **Cycle de vie**, sélectionnez **Publier**.
 
@@ -16,14 +16,14 @@ Dans cet exercice, vous apprenez à publier votre application dans le magasin de
 
     a. ![Capture d’écran du message toast lorsque l’application est publiée dans le magasin de l’organisation.](../../media/published-successfully.png)
 
-    a. ![Capture d’écran du centre d’administration Teams.](../../media/admin-portal.png)
+    b. ![Capture d’écran du centre d’administration Teams.](../../media/admin-portal.png)
 
 1. Dans le menu **Gérer les applications** du Centre d’administration Teams, repérez la zone de texte **Rechercher par nom**. 
-1. Entrez **hello-tab** pour filtrer la liste des applications. Ensuite, **sélectionnez l’application** pour afficher les détails de l’application.
+1. Entrez **hello-tabdev** pour filtrer la liste des applications. Ensuite, **sélectionnez l’application** pour afficher les détails de l’application.
 
     ![Capture d’écran présentant la recherche de l’application dans le centre d’administration Teams.](../../media/search-app-dev-portal.png)
 
-1. Sur le panneau des détails de l’application **hello-tab** , sélectionnez **Publier**.
+1. Sur le panneau des détails de l’application **hello-tabdev** , sélectionnez **Publier**.
 
     ![Capture d’écran de la publication de l’application dans le centre d’administration Teams.](../../media/admin-publish-app.png)
 
@@ -38,7 +38,7 @@ Maintenant que votre application est publiée dans le magasin de l’organisatio
 ## Tâche 2 : Installer l’application depuis le magasin
 
 1. Ouvrez le client Microsoft Teams ou connectez-vous à Microsoft Teams en ligne ([teams.microsoft.com](teams.microsoft.com)) avec vos **informations d’identification de locataire Microsoft 365**.
-2. Dans Microsoft Teams, accédez à **Applications** pour afficher le magasin de l’organisation. Sous **Généré pour votre organisation**, sélectionnez la vignette **hello-tab**.
+2. Dans Microsoft Teams, accédez à **Applications** pour afficher le magasin de l’organisation. Sous **Généré pour votre organisation**, sélectionnez la vignette **hello-tabdev**.
 
     a. ![Capture d’écran du magasin de l’organisation avec l’application hello-tab mise en évidence.](../../media/org-store.png)
 
