@@ -2,7 +2,7 @@
 
 Dans cet exercice, vous allez d’abord créer et approvisionner une application d’onglet Teams à l’aide du kit de ressources Teams pour Visual Studio Code. Dans un exercice ultérieur, vous allez configurer l’application à héberger dans Azure.
 
-**Remarque** :  Les exercices de ce module d’entraînement utilisent le kit de ressources Teams v5.0.0. Les étapes suivantes supposent que l’extension du kit de ressources Teams est installée.
+**Remarque** :  Les exercices de ce module de formation utilisent Teams Toolkit v5.6.0. Les étapes suivantes supposent que l’extension du kit de ressources Teams est installée.
 
 ## Tâche 1 : Créer une application d’onglet
 

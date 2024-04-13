@@ -91,6 +91,6 @@ Exécutez votre application en mode débogage pour tester les fonctionnalités.
    - Dans Visual Studio Code, accédez au menu **Exécuter et déboguer**.  Sélectionnez **Déboguer dans Teams** avec l’option de navigateur souhaitée, puis sélectionnez le bouton **Démarrer le débogage**.
    - Dans la section **ENVIRONNEMENT** de Teams Toolkit, ouvrez le dossier *local*, puis sélectionnez le navigateur de votre choix.
 
-3. Visual Studio Code effectue des vérifications dont les actions sont visibles sous l’onglet **Console**, puis une nouvelle fenêtre de navigateur s’ouvre. Dans la boîte de dialogue **UserInfoApp**, sélectionnez le bouton **Ajouter** pour installer l’application dans Teams et avoir un aperçu.
+3. Visual Studio Code effectue des vérifications dont les actions sont visibles sous l’onglet **Console**, puis une nouvelle fenêtre de navigateur s’ouvre. Dans la boîte de dialogue **UserInfoApplocal**, sélectionnez le bouton **Ajouter** pour installer l’application dans Teams et avoir un aperçu.
 
 L’application est désormais visible dans la barre latérale. L’application est préconfigurée avec deux onglets : **Onglet Personnel** et **À propos de**. Vérifiez que le code des paramètres régionaux s’affiche sous l’onglet.
