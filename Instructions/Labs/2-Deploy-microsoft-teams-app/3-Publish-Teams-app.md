@@ -37,7 +37,7 @@ Maintenant que votre application est publiée dans le magasin de l’organisatio
 
 ## Tâche 2 : Installer l’application depuis le magasin
 
-1. Ouvrez le client Microsoft Teams ou connectez-vous à Microsoft Teams en ligne ([teams.microsoft.com](teams.microsoft.com)) avec vos **informations d’identification de locataire Microsoft 365**.
+1. Ouvrez le client Microsoft Teams ou connectez-vous à Microsoft Teams en ligne ([teams.microsoft.com](https://teams.microsoft.com/)) avec vos **informations d’identification de locataire Microsoft 365**.
 2. Dans Microsoft Teams, accédez à **Applications** pour afficher le magasin de l’organisation. Sous **Généré pour votre organisation**, sélectionnez la vignette **hello-tabdev**.
 
     a. ![Capture d’écran du magasin de l’organisation avec l’application hello-tab mise en évidence.](../../media/org-store.png)
