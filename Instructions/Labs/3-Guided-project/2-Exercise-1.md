@@ -102,7 +102,7 @@ Ensuite, utilisez Teams Toolkit pour approvisionner les ressources requises pour
 
 ## Tâche 5 : Configurer des autorisations pour récupérer des données Microsoft Graph
 
-1. Connectez-vous au portail Azure sur [portal.azure.com](portal.azure.com) avec votre compte administrateur **Microsoft 365**.
+1. Connectez-vous au portail Azure sur [portal.azure.com](https://portal.azure.com) avec votre compte administrateur **Microsoft 365**.
 2. Dans le menu de navigation de gauche, accédez à **Microsoft Entra ID**.
 3. Accédez à **Gérer > Inscriptions d’applications > Toutes les applications**.
 4. Sélectionnez l’inscription de l’application **Contact Details** qui a été créée lors de l’approvisionnement.
@@ -146,3 +146,5 @@ Prévisualisez votre application dans le client Teams pour tester les fonctionna
 5. Lorsque l’extension de message se charge dans le client Teams, entrez une lettre pour rechercher dans les utilisateurs par nom d’affichage.  Sélectionnez un résultat pour insérer une carte dans la conversation.
 
 Remarque : Si, pour une raison ou une autre, l’extension de message n’est pas appelée automatiquement, vous pouvez y accéder en entrant « Développement des informations de @Contact » dans la barre de commandes en haut du client Teams ou dans la zone de composition du message.  Vous pouvez également utiliser le bouton **Actions et applications** dans la zone Composer un message pour localiser l’application.
+
+   ![Capture d’écran de l’appel de l’extension de message](../../media/invoke-message-extension.png)

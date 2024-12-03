@@ -2,7 +2,7 @@
 
 Dans cet exercice, vous allez d’abord créer et approvisionner une application d’onglet Teams à l’aide du kit de ressources Teams pour Visual Studio Code. Dans un exercice ultérieur, vous allez configurer l’application à héberger dans Azure.
 
-**Remarque** :  Les exercices de ce module de formation utilisent Teams Toolkit v5.6.0. Les étapes suivantes supposent que l’extension du kit de ressources Teams est installée.
+**Remarque** : les exercices de ce module de formation utilisent Teams Toolkit v5.8.0. Les étapes suivantes supposent que l’extension du kit de ressources Teams est installée.
 
 ## Tâche 1 : Créer une application d’onglet
 
@@ -34,6 +34,8 @@ Dans cet exercice, vous allez d’abord créer et approvisionner une application
 
 1. Lorsque l’application est testée avec succès, arrêtez d’exécuter l’application localement.
 
+    ![Capture d’écran de l’application onglet débogage](../../media/launch-debug-tab-app.png)
+
 1. Pour mettre fin à la session de débogage et arrêter l’exécution de l’application, vous pouvez fermer le navigateur, sélectionner **Exécuter > Arrêter le débogage**, ou sélectionner **Maj+F5**.
 
 ## Tâche 2 : Se connecter à Azure dans le kit de ressources Teams
@@ -49,6 +51,7 @@ Connectez-vous à Azure en utilisant le compte de votre **abonnement Azure**.
 1. Dans la boîte de dialogue qui s’affiche, sélectionnez **Se connecter**.
 
     ![Capture d’écran d’une boîte de dialogue permettant de confirmer la connexion à Azure.](../../media/sign-into-azure-alert.png)
+    ![Capture d’écran de la connexion à Azure](../../media/signed-into-azure.png)
 
 ## Tâche 3 : Approvisionner les ressources
 
@@ -72,6 +75,7 @@ Vous pouvez maintenant approvisionner les ressources dont votre application d’
 
 1. L’approvisionnement commence pour toutes les ressources dont vous avez besoin pour héberger l’application d’onglet Teams dans Azure. L’approvisionnement peut prendre un certain temps.
 
+    ![Capture d’écran de la réussite de l’approvisionnement](../../media/provision-success.png)
 Vous avez maintenant approvisionné toutes les ressources dont vous avez besoin pour héberger l’application d’onglet Teams.
 
 Ensuite, vous allez déployer le code source de votre application sur ces ressources.

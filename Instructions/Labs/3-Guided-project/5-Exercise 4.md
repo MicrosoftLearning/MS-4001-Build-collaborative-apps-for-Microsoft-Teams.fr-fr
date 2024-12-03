@@ -33,13 +33,13 @@ Utilisez le modèle de bot de commande pour créer un bot :
 
 1. Ouvrez Visual Studio Code.
 1. Dans la barre latérale, sélectionnez l’icône **Microsoft Teams** pour ouvrir le panneau **TEAMS TOOLKIT**.
-1. Cliquez sur le bouton **Créer une application**.
+1. Sélectionnez le bouton **Créer une application**.
 1. Dans le menu **New Project**, sélectionnez **Bot**, puis **Chat Command** pour générer un bot de commande.
 1. Comme langage de programmation, sélectionnez **TypeScript**.
 1. Comme **dossier de l’espace de travail**, sélectionnez ou créez un dossier pour stocker vos fichiers projet sur votre ordinateur.
 1. Comme **nom d’application**, entrez **SupportCommandBot**, puis appuyez sur **Entrée**. Teams Toolkit génère la structure d’une nouvelle application et ouvre le dossier du projet dans Visual Studio Code.
 1. Vous pouvez recevoir un message de Visual Studio Code qui vous demande si vous approuvez les auteurs des fichiers dans ce dossier. Sélectionnez le bouton **Oui, je fais confiance aux auteurs** pour continuer.
-1. Passez en revue les répertoires et fichiers du projet à l’aide de l’Explorateur dans Visual Studio Code pour vous familiariser avec le code source.
+1. Passez en revue les répertoires et fichiers du projet à l’aide de l’Explorateur dans Visual Studio Code pour vous familiariser avec le code source. ![Capture d’écran des fichiers dans l’explorateur](../../media/explorer-bot-file.png)
 
 ## Tâche 2 : Configurer le manifeste
 
@@ -190,7 +190,7 @@ Si votre environnement de développement ne prend pas en charge le tunnel dev Te
       ```shell
       Forwarding      http://<random_string>.ngrok-free.app -> http://localhost:3978
       ```
-   1. Cliquez sur `Ctrl + C` pour déconnecter le tunnel ngrok.
+   1. Sélectionnez `Ctrl + C` pour déconnecter le tunnel ngrok.
 1. Accédez au dossier `.vscode`, puis ouvrez le fichier `task.json`. Mettez à jour la tâche `Start local tunnel` :
    ```json
     {
@@ -266,6 +266,6 @@ Exécutez votre application localement afin de tester sa fonctionnalité :
 
 1. Ouvrez le panneau **TEAMS TOOLKIT**. Dans le menu **DEVELOPMENT**, sélectionnez **Preview Your Teams App** (ou utilisez la clé `F5`), puis sélectionnez **Debug in Teams ()** avec le navigateur de votre choix.  
 2. Teams Toolkit approvisionnera et exécutera votre application localement dans un navigateur.
-3. Dans la boîte de dialogue d’installation de l’application dans le navigateur, sélectionnez **Ajouter** pour installer votre application Teams.  Teams ouvre une conversation avec votre bot installé.
+3. Dans la boîte de dialogue d’installation de l’application dans le navigateur, sélectionnez **Ajouter** pour installer votre application Teams.  Teams ouvre une conversation avec votre bot installé. ![Capture d’écran de l’ajout de SupportCommandBotlocal](../../media/add-supportcommandbotlocal.png)
 4. Entrez ou sélectionnez la commande `resetPassword`.
-5. Vérifiez que le bot répond avec une carte adaptative contenant des instructions de réinitialisation de mot de passe.
+5. Vérifiez que le bot répond avec une carte adaptative contenant des instructions de réinitialisation de mot de passe. ![Capture d’écran de l’exécution de SupportCommandBotlocal](../../media/supportcommandbotlocal-run.png)

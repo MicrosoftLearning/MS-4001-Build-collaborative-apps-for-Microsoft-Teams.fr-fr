@@ -10,7 +10,7 @@ Dans cet exercice, vous allez installer Teams Toolkit pour Visual Studio Code et
 
 ![Capture d’écran de l’installation de Teams Toolkit dans Visual Studio Code.](../../media/teams-toolkit-install.png)
 
-**Remarque** :  Les exercices de ce module utilisent Teams Toolkit v5.6.0. Veuillez noter que les versions mineures peuvent varier.
+**Remarque** : les exercices de ce module utilisent Teams Toolkit v5.8.1. Veuillez noter que les versions mineures peuvent varier.
 
 Vous pouvez également installer Teams Toolkit à partir de [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension).
 

@@ -33,7 +33,7 @@ Dans le cadre de l’exercice, vous devez effectuer les tâches suivantes :
 
 Une notification s’affiche quand tous les dossiers et fichiers ont été automatiquement générés, et une nouvelle instance de Visual Studio Code ouvre le nouveau dossier de projet.
 
-Dans le panneau **EXPLORATEUR**, le dossier *src* contient le code source de votre application. Les fichiers en dehors du dossier *src* sont liés au serveur, comme le bot.
+Dans le panneau **EXPLORATEUR**, le dossier *src* contient le code source de votre application. Les fichiers en dehors du dossier *src* sont liés au serveur, comme le bot. ![Capture d’écran des fichiers dans l’explorateur](../../media/explorer-tab-file.png)
 
 ## Tâche 2 : Mettre à jour l’application pour récupérer et afficher les paramètres régionaux de l’utilisateur
 
@@ -91,6 +91,6 @@ Exécutez votre application en mode débogage pour tester les fonctionnalités.
    - Dans Visual Studio Code, accédez au menu **Exécuter et déboguer**.  Sélectionnez **Déboguer dans Teams** avec l’option de navigateur souhaitée, puis sélectionnez le bouton **Démarrer le débogage**.
    - Dans la section **ENVIRONNEMENT** de Teams Toolkit, ouvrez le dossier *local*, puis sélectionnez le navigateur de votre choix.
 
-3. Visual Studio Code effectue des vérifications dont les actions sont visibles sous l’onglet **Console**, puis une nouvelle fenêtre de navigateur s’ouvre. Dans la boîte de dialogue **UserInfoApplocal**, sélectionnez le bouton **Ajouter** pour installer l’application dans Teams et avoir un aperçu.
+3. Visual Studio Code effectue des vérifications dont les actions sont visibles sous l’onglet **Console**, puis une nouvelle fenêtre de navigateur s’ouvre. Dans la boîte de dialogue **UserInfoApplocal**, sélectionnez le bouton **Ajouter** pour installer l’application dans Teams et avoir un aperçu. ![Capture d’écran de l’ajout de UserInfoApplocal](../../media/add-userinfoapplocal.png)
 
-L’application est désormais visible dans la barre latérale. L’application est préconfigurée avec deux onglets : **Onglet Personnel** et **À propos de**. Vérifiez que le code des paramètres régionaux s’affiche sous l’onglet.
+L’application est désormais visible dans la barre latérale. L’application est préconfigurée avec deux onglets : **Onglet Personnel** et **À propos de**. Vérifiez que le code des paramètres régionaux s’affiche sous l’onglet. ![Capture d’écran de UserInfoApplocal dans le web](../../media/userinfoapplocal-run.png)
