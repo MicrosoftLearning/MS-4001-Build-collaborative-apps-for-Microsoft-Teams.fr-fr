@@ -24,9 +24,12 @@ Exécutons le projet et voyons à quoi il ressemblera dans Microsoft Teams.
 4. Ensuite, Teams Toolkit ouvre Microsoft Teams dans le navigateur que vous avez sélectionné.
 5. Connectez-vous avec le même compte **Microsoft 365** que celui que vous avez utilisé pour vous connecter à Teams Toolkit.
 6. Teams affiche ensuite une option permettant d’installer votre application. Sélectionnez **Ajouter** pour afficher un aperçu de l’application.
-7. Lorsque vous affichez un aperçu, le nom de votre application est suffixe avec le *local*. Le suffixe indique que l’application fonctionne localement et n’a pas été déployée.
 
     ![Capture d’écran de la boîte de dialogue pour l’installation d’une application Teams.](../../media/add-teams-app.png)
+
+7. Lorsque vous affichez un aperçu, le nom de votre application est suffixe avec le *local*. Le suffixe indique que l’application fonctionne localement et n’a pas été déployée.
+
+    ![Capture d’écran de la page web de l’onglet local](../../media/run-tab-local.png)
 
 8. Pour en savoir plus sur la structure du projet et sur l’utilisation et la personnalisation de votre application, ouvrez le fichier **README.md** sous le dossier du projet.
 

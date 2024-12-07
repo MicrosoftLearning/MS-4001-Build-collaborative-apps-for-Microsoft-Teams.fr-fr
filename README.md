@@ -1,3 +1,5 @@
+**Ce cours sera mis hors service le **30/08/2024**. Une fois le cours mis hors service, tous les référentiels GitHub seront supprimés. Merci.**
+
 # MS-4001 : Créer des applications collaboratives pour Microsoft Teams
 
 **Êtes-vous MCT ?** - Consultez notre [Guide de l’utilisateur GitHub pour MCT](https://microsoftlearning.github.io/MCT-User-Guide/)
