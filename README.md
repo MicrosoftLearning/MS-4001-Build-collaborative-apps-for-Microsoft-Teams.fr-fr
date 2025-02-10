@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 **Ce cours sera mis hors service le **30/08/2024**. Une fois le cours mis hors service, tous les référentiels GitHub seront supprimés. Merci.**
 
 # MS-4001 : Créer des applications collaboratives pour Microsoft Teams
